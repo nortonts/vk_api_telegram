@@ -28,10 +28,10 @@ def send_message(message):
 
 
 if __name__ == "__main__":
-    vk_id = 'id3003609'
+    vk_id = 'id3339364'
     while True:
         if get_status(vk_id) == 1:
-            send_message(f'Ира {vk_id} сейчас онлайн!')
+            send_message(f'Ира сейчас онлайн!')
             time.sleep(100)
             continue
         else:
